@@ -1,0 +1,18 @@
+{
+  "name": "api-assistencia-tecnica",
+  "version": "1.0.0",
+  "description": "API REST de Assistência Técnica (recurso: equipamento) - Node.js, Express e MySQL/MariaDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "morgan": "^1.12.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.14"
+  }
+}
